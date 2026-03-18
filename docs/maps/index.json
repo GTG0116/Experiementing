@@ -16,7 +16,7 @@
         "lightning",
         "severe"
       ],
-      "generated_utc": "2026-03-18T21:17:44.796498Z",
+      "generated_utc": "2026-03-18T22:12:21.506269Z",
       "max_prob_map": "20260318_1900/tornado_prob_combined_conus_MAX.png",
       "hourly_maps": [
         {
@@ -3066,5 +3066,5 @@
       ]
     }
   ],
-  "last_updated": "2026-03-18T21:17:44.796580Z"
+  "last_updated": "2026-03-18T22:12:21.506356Z"
 }
