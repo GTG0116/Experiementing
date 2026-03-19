@@ -1,6 +1,57 @@
 {
   "runs": [
     {
+      "run_time": "2026-03-19T07:00:00",
+      "run_key": "20260319_0700",
+      "model": "combined",
+      "ensemble": [
+        "hrrr"
+      ],
+      "region": "conus",
+      "n_hours": 6,
+      "hazards": [
+        "tornado",
+        "hail",
+        "wind",
+        "lightning",
+        "severe"
+      ],
+      "generated_utc": "2026-03-19T09:25:17.633680Z",
+      "max_prob_map": "20260319_0700/tornado_prob_combined_conus_MAX.png",
+      "hourly_maps": [
+        {
+          "fxx": 1,
+          "valid_time": "2026-03-19T08:00:00",
+          "file": "20260319_0700/tornado_prob_combined_conus_F01.png"
+        },
+        {
+          "fxx": 2,
+          "valid_time": "2026-03-19T09:00:00",
+          "file": "20260319_0700/tornado_prob_combined_conus_F02.png"
+        },
+        {
+          "fxx": 3,
+          "valid_time": "2026-03-19T10:00:00",
+          "file": "20260319_0700/tornado_prob_combined_conus_F03.png"
+        },
+        {
+          "fxx": 4,
+          "valid_time": "2026-03-19T11:00:00",
+          "file": "20260319_0700/tornado_prob_combined_conus_F04.png"
+        },
+        {
+          "fxx": 5,
+          "valid_time": "2026-03-19T12:00:00",
+          "file": "20260319_0700/tornado_prob_combined_conus_F05.png"
+        },
+        {
+          "fxx": 6,
+          "valid_time": "2026-03-19T13:00:00",
+          "file": "20260319_0700/tornado_prob_combined_conus_F06.png"
+        }
+      ]
+    },
+    {
       "run_time": "2026-03-19T05:00:00",
       "run_key": "20260319_0500",
       "model": "combined",
@@ -3012,58 +3063,7 @@
           "file": "20260315_0300/tornado_prob_combined_conus_F06.png"
         }
       ]
-    },
-    {
-      "run_time": "2026-03-15T01:00:00",
-      "run_key": "20260315_0100",
-      "model": "combined",
-      "ensemble": [
-        "hrrr"
-      ],
-      "region": "conus",
-      "n_hours": 6,
-      "hazards": [
-        "tornado",
-        "hail",
-        "wind",
-        "lightning",
-        "severe"
-      ],
-      "generated_utc": "2026-03-15T03:47:08.963885Z",
-      "max_prob_map": "20260315_0100/tornado_prob_combined_conus_MAX.png",
-      "hourly_maps": [
-        {
-          "fxx": 1,
-          "valid_time": "2026-03-15T02:00:00",
-          "file": "20260315_0100/tornado_prob_combined_conus_F01.png"
-        },
-        {
-          "fxx": 2,
-          "valid_time": "2026-03-15T03:00:00",
-          "file": "20260315_0100/tornado_prob_combined_conus_F02.png"
-        },
-        {
-          "fxx": 3,
-          "valid_time": "2026-03-15T04:00:00",
-          "file": "20260315_0100/tornado_prob_combined_conus_F03.png"
-        },
-        {
-          "fxx": 4,
-          "valid_time": "2026-03-15T05:00:00",
-          "file": "20260315_0100/tornado_prob_combined_conus_F04.png"
-        },
-        {
-          "fxx": 5,
-          "valid_time": "2026-03-15T06:00:00",
-          "file": "20260315_0100/tornado_prob_combined_conus_F05.png"
-        },
-        {
-          "fxx": 6,
-          "valid_time": "2026-03-15T07:00:00",
-          "file": "20260315_0100/tornado_prob_combined_conus_F06.png"
-        }
-      ]
     }
   ],
-  "last_updated": "2026-03-19T07:37:51.385809Z"
+  "last_updated": "2026-03-19T09:25:17.633770Z"
 }
